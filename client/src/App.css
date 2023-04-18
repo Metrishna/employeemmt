@@ -135,29 +135,29 @@ background-size: cover;
 }
 
 .CreateEmployee {
-  background-color: #2884b8;
-background-image: linear-gradient(315deg, #2884b8 0%, #d1bad2 74%);
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
   min-height: 100vh;
   color: beige;
 }
 
 .ShowEmployeeDetails {
-  background-color: #2884b8;
-background-image: linear-gradient(315deg, #2884b8 0%, #d1bad2 74%);
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
   min-height: 100vh;
   color: beige;
 }
 
 .UpdateEmployeeInfo {
-  background-color: #2884b8;
-background-image: linear-gradient(315deg, #2884b8 0%, #d1bad2 74%);
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);  
   min-height: 100vh;
   color: beige;
 }
 
 .ShowEmployeeList {
-  background-color: #2884b8;
-background-image: linear-gradient(315deg, #2884b8 0%, #d1bad2 74%);
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);  
   height: 100%;
   width: 100%;
   min-height: 100vh;
