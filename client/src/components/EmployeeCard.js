@@ -13,6 +13,7 @@ const EmployeeCard = (props) => {
         src='https://thumbs.dreamstime.com/b/black-solid-icon-employee-applicant-man-logo-symbol-146530494.jpg'
         alt='Employees'
         height={200}
+        width={200}
       />
       <div className='desc'>
         <h2>
