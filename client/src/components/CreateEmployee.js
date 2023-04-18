@@ -51,7 +51,7 @@ const CreateEmployee = (props) => {
         <div className='row'> 
           <div className='col-md-8 m-auto'>
             <br />
-            <Link to='/' className='btn btn-outline-warning float-right'>
+            <Link to='/' className='btn btn-outline-light float-right'>
               Home
             </Link>
             <Link to='/show-list' className='btn btn-outline-light float-left'>
