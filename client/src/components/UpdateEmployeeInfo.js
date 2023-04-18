@@ -18,7 +18,7 @@ function UpdateEmployeeInfo(props) {
 
   useEffect(() => {
     axios
-      .get(`https://5000-suhaninayak-employeeman-fq4udn4acg5.ws-us94.gitpod.io/api/employees/${id}`)
+      .get(`/api/employees/${id}`)
       .then((res) => {
         setEmployee({
           name: res.data.name,
@@ -52,7 +52,7 @@ function UpdateEmployeeInfo(props) {
     };
 
     axios
-      .put(`https://5000-metrishna-employeemmt-wkch3ribfg3.ws-us94.gitpod.io/api/employees/${id}`, data)
+      .put(`/api/employees/${id}`, data)
       .then((res) => {
         navigate(`/show-employee/${id}`);
       })

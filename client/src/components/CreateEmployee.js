@@ -24,7 +24,7 @@ const CreateEmployee = (props) => {
     e.preventDefault();
 
     axios
-      .post('https://5000-metrishna-employeemmt-wkch3ribfg3.ws-us94.gitpod.io/api/employees', employee)
+      .post('/api/employees', employee)
       .then((res) => {
         setEmployee({
           name: '',

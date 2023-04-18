@@ -9,7 +9,7 @@ function ShowEmployeeList() {
 
   useEffect(() => {
     axios
-      .get('https://5000-metrishna-employeemmt-wkch3ribfg3.ws-us94.gitpod.io/api/employees')
+      .get('/api/employees')
       .then((res) => {
         setEmployees(res.data);
       })

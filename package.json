@@ -1,11 +1,11 @@
 {
+  "proxy": "http://localhost:5000",
   "name": "employeemmt",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

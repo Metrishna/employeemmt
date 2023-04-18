@@ -11,7 +11,7 @@ function ShowEmployeeDetails(props) {
 
   useEffect(() => {
     axios
-      .get(`https://5000-metrishna-employeemmt-wkch3ribfg3.ws-us94.gitpod.io/api/employees/${id}`)
+      .get(`/api/employees/${id}`)
       .then((res) => {
         setEmployee(res.data);
       })
@@ -23,7 +23,7 @@ function ShowEmployeeDetails(props) {
 
   const onDeleteClick = (id) => {
     axios
-      .delete(`https://5000-metrishna-employeemmt-wkch3ribfg3.ws-us94.gitpod.io/api/employees/${id}`)
+      .delete(`/api/employees/${id}`)
       .then((res) => {
         navigate('/');
       })
